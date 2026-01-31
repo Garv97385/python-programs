@@ -1,0 +1,4 @@
+print("Welcome ! , this ia a multiplication program")
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+print("The multiplication is:", a * b)
