@@ -1,0 +1,60 @@
+#    WELCOME TO MY PROGRAM  ! 
+
+
+
+print("Welcome ! , this is a multiplication program")
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+print("The multiplication is:", a * b)
+
+print("Thank you for using the multiplication program!")
+  
+print()
+
+#/////////////////////////////////////////////////////////////////////
+
+
+print("Welcome ! , this is an addition program")
+c = int(input("Enter a number: "))
+d = int(input("Enter another number: "))
+print("The addition is:", c + d)
+
+print("Thank you for using the addition program!")
+
+print()
+
+#/////////////////////////////////////////////////////////////////////
+
+print("Welcome ! , this is a subtraction program")
+e = int(input("Enter a number: "))  
+f = int(input("Enter another number: "))
+print("The subtraction is:", e - f)
+
+print("Thank you for using the subtraction program!")
+
+print()
+
+#/////////////////////////////////////////////////////////////////////
+
+print("Welcome ! , this is a division program")
+g = int(input("Enter a number: "))
+h = int(input("Enter another number: "))
+print("The division is:", g / h)
+
+print("Thank you for using the division program!")
+
+print()
+
+#/////////////////////////////////////////////////////////////////////
+
+print("Welcome ! , this is a square program")
+i = int(input("Enter a number: "))
+print("The square is:", i ** 2)
+
+print("Thank you for using the square program!")    
+
+print()
+
+#/////////////////////////////////////////////////////////////////////
+
+
