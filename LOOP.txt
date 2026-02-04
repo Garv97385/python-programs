@@ -1,0 +1,6 @@
+#  WELCOME TO MY LOOP
+
+a = 1
+while a < 84:
+    a += 1
+    print(a)
