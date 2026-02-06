@@ -1,0 +1,10 @@
+#   STRINGS METHODS
+
+
+A = "MY NAME IS GARV KUMAR"
+
+print(A.lower())  # Converts all characters to lowercase
+print(A.upper())  # Converts all characters to uppercase
+print(A.title())  # Converts the first character of each word to uppercase
+print(A.capitalize())  # Converts the first character of the string to uppercase
+print(A.swapcase())  # Swaps the case of each character
