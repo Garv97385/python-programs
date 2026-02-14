@@ -1,0 +1,26 @@
+#IF ELSE STATEMENT
+ 
+# Check if a person is eligible to vote based on their age
+
+
+print("\t")
+
+age = 18
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+print("\t")
+print("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")
+print("\t")
+# check if you are pass or fail based on marks
+
+marks = 75
+if marks >= 40:
+    print("You have passed the exam.")
+else:
+    print("You have failed the exam.")
+print("\t")
+
