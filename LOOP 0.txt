@@ -1,0 +1,9 @@
+#Loop
+
+i= 1
+a =5
+u = int(input("Enter your terms: "))
+while i <= u:
+    print( a)
+    i += 1
+    a += 5
