@@ -1,0 +1,5 @@
+#INDEXING
+
+FOOD = ("ras malai" , "gulab jamun" , "kitkat" , "malai chap" , "butter chicken" , "paneer" )
+FAV_FOOD = (FOOD[0] , FOOD[2] , FOOD[3] )
+print(FAV_FOOD)
