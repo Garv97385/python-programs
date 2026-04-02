@@ -1,0 +1,22 @@
+# DICTIONARY BASICS
+
+# TO SEARCH STUDENT DETAILS
+
+student_details = {
+    name GARV,
+    age 14,
+    class 9,
+    roll_no 17,
+    BOD 20-6-2011,
+    previous_school GURUKUL INTERNATIONAL ACADEMY,
+    current_school SUNSHINE PUBLIC SCHOOL
+}
+
+print(student_details[name])
+print(student_details[age])
+print(student_details[class]) 
+print(student_details[roll_no])
+print(student_details[BOD])
+print(student_details[previous_school])
+print(student_details[current_school])
+
