@@ -1,0 +1,11 @@
+#PROGRAM  TO CHECK THE  SIZE OF BODY
+
+
+size = int(input(Enter the size of bottom ))
+
+if size = 26 and size = 30
+    print(YOUR SIZE IS  SMALL)
+elif size = 32 and size = 36
+    print(YOUR SIZE IS  MEDIUM)
+else
+    print(YOUR SIZE IS  LARGE)
