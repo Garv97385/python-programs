@@ -1,0 +1,5 @@
+def name ()
+    print(My name is garv)
+
+name() #calling the function
+ 
