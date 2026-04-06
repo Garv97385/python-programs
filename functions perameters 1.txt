@@ -1,0 +1,26 @@
+#functions perameters
+
+def show_age(name, age):
+    print(f"{name} is {age} years old")
+
+
+show_age("GARV",14)
+
+
+
+#functions perameters_2
+
+
+
+
+
+def add_numbers(a,b):
+    sum = a + b 
+    difference = a - b 
+    return sum, difference
+
+
+result = add_numbers(5, 3)
+print(result)
+
+
