@@ -1,0 +1,9 @@
+#functions perameters_3
+
+
+def fav_food(food)
+    print(GARV loves  + food)
+
+fav_food(pizza)
+
+
