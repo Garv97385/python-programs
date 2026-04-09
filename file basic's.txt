@@ -1,0 +1,6 @@
+#file basic's
+ # practice question 1
+file= open(INDEXING.txt,r)
+read=file.read()
+print(read)
+
