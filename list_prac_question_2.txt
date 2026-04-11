@@ -1,0 +1,6 @@
+#Add an element 60 to the list.
+
+my_list = []
+
+my_list.append(60)
+print(my_list)
