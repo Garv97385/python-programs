@@ -1,0 +1,7 @@
+#Sort the list in ascending order.
+
+num = [7,4,1,2,3,6,5,9,8]
+print(num, "\n")
+
+num.sort()
+print(num)
