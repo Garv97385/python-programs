@@ -1,0 +1,9 @@
+#Write a program to find the sum of all elements in a list.
+
+n = int(input("Enter the number of elements in the list: "))
+my_list = []
+for i in range(n):
+    element = int(input("Enter an element: "))
+    my_list.append(element)
+total = sum(my_list)
+print("The sum of all elements in the list is:", total)
