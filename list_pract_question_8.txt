@@ -1,0 +1,7 @@
+#Write a program to check if "apple" is present in the list.
+my_list = ["banana", "orange", "grape", "apple", "kiwi"]
+
+if "apple" in my_list:
+    print("Apple is present in the list.") 
+else:   
+     print("Apple is not present in the list.")      
