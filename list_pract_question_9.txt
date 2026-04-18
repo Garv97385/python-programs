@@ -1,0 +1,6 @@
+#Convert a tuple into a list and add one more element.
+tup = (1, 2, 3, 4, 5)
+lst = list(tup) 
+lst.append(6)
+print(lst)  
+
