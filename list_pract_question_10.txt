@@ -1,0 +1,7 @@
+#Write a program to print the length of a list.\
+
+
+
+my_list = [1, 2, 3, 4, 5]
+length_of_list = len(my_list)
+print("The length of the list is:", length_of_list)
