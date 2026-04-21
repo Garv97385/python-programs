@@ -1,0 +1,13 @@
+# this is a program to convert USD to INR
+
+# function to convert USD to INR
+
+
+def convert_usd_to_inr(usd):
+    inr = usd * 93.055
+    print(usd , "USD =" , inr , "INR")
+
+
+usd = float(input("ENTER THE AMOUNT IN USD  :"))
+
+convert_usd_to_inr(usd)
