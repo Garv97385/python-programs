@@ -1,0 +1,6 @@
+#Create a tuple of 4 strings and print the last element.
+
+
+tup = ("apple","bannana","grape","orange")
+
+print(tup[-1])
