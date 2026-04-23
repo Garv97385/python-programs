@@ -1,0 +1,12 @@
+#Try to change the second element of the tuple to "grapes". What happens?
+
+tup = ("apple", "banana", "cherry")
+print(tup)
+tup[-2]= "grapes"
+print(tup)
+
+
+#tuple is immutable, we cannot change the value of the elements in the tuple. We can only create a new tuple with the desired changes.  
+
+
+
