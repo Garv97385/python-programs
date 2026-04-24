@@ -1,0 +1,12 @@
+#Convert the tuple into a list and modify it.
+
+tup = ("apple ","banana", "cherry")
+
+tup_list = list(tup)
+
+print(tup_list)
+tupe = type(tup_list)
+print(tupe)
+
+tup_list[-2] = "grapes"
+print(tup_list)
