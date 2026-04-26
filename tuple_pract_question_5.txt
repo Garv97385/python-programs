@@ -1,0 +1,5 @@
+#Create a tuple of 5 colors. Print the third color.
+
+
+colours = ("Red", "Green", "Blue", "Yellow", "Purple")
+print(colours[2])
