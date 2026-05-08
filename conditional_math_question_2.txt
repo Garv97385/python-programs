@@ -1,0 +1,18 @@
+# If the sides form a valid triangle, determine whether it is equilateral, isosceles, or scalene. 
+
+a = float(input("Enter the length of the first side: "))
+b = float(input("Enter the length of the second side: "))   
+c = float(input("Enter the length of the third side: "))
+
+if a == b == c :
+        print("                            ")
+        print ("The triangle is equilateral.")
+        print("                            ")
+elif a == b or a == c or b == c:
+        print("                            ")
+        print ("The triangle is isosceles.")
+        print("                            ")
+elif a != b and a != c and b != c:
+        print("                            ")
+        print ("The triangle is scalene.")
+        print("                            ")
