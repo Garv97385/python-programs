@@ -1,0 +1,9 @@
+# Check if one of two given numbers is a multiple of the other.
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+if a % b == 0 or b % a == 0:
+    print("One of the numbers is a multiple of the other.")
+else:
+    print("Neither number is a multiple of the other.")
