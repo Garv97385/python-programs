@@ -1,0 +1,6 @@
+# Take the hour of the day (0–23) and print “Good Morning”, “Good Afternoon”, “Good Evening”, or “Good Night”. 
+name = input("Enter your name: ")
+time = int(input("Enter the hour of the day (0-23): "))
+
+if 0 <= time < 12 :
+    print ("Good Morning, " + name + "!")
