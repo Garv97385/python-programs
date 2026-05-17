@@ -1,0 +1,18 @@
+# Take a 3-digit number and check if all digits are distinct.
+
+number = int(input("Enter 3-digit number :"))
+
+hundereds = number // 100 
+tens = (number // 10) % 10
+units = number % 10
+
+if hundereds != tens and hundereds != units and tens != units :
+    print("All digits are distinct")
+else:
+    print("Not all digits are distinct")
+
+
+
+
+
+
