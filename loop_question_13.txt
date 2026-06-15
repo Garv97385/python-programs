@@ -1,0 +1,16 @@
+#  Check if a number is a palindrome.
+
+num = int(input("Enter a number: "))  
+n=num
+rev = 0 
+rim = 0         #
+while (num > 0):
+    rim = num % 10
+    rev = rev * 10 + rim       #formula for reversing a number
+    num //= 10
+if rev == n:
+    print("The number is a palindrome.")
+else: 
+     print("The number is not a palindrome.")
+
+     
