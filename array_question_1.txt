@@ -1,0 +1,13 @@
+# Input n and take n integers into an array; print them. 
+
+n = int(input("Enter the number of elements : "))
+arr = []
+for i in range(n):
+    num = int(input(f"Enter elements {i+1} : "))
+    arr.append(num)
+
+
+
+print("The array  is :",arr)
+
+
