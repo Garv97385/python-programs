@@ -1,0 +1,11 @@
+# Find the sum of all elements in an array.
+
+n = int(input("Enter the number of elements : "))
+arr = []
+
+for i in range(n):
+    num = int(input(f"Enter elements {1+1} : "))
+    arr.append(num)
+
+total = sum(arr)    
+print(f"Total sum of array is {total}")
