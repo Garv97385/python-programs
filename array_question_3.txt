@@ -1,0 +1,12 @@
+#  Find the maximum element in an array. 
+
+element = int(input("enter the number of element : "))
+arr = []
+
+for i in range(element):
+    num = int(input("Enter the number : "))
+    arr.append(num)
+
+maximum = max(arr)
+  
+print (f"Maximum number is  : {maximum}")
