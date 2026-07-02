@@ -1,0 +1,11 @@
+# Find the minimum element in an array. 
+
+element = int(input("Enter the number of element : "))
+arr = []
+
+for i in range(element):
+    num = int(input("Enter the number : "))
+    arr.append(num)
+
+minimum = min(arr)
+print(f"The minimum number is {minimum}")
