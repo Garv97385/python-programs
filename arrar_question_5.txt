@@ -1,0 +1,15 @@
+# Count how many elements are even and odd. 
+
+n = int(input("Enter the number of element : "))
+arr = []
+even_count = 0
+odd_count = 0
+for i in range(n):
+    arr.append (int(input("Enter the elements : ")))
+for j in arr:
+    if j%2==0:
+        even_count+=1
+    else: odd_count+=1
+print(arr)
+print(f"Even numbers : {even_count} ")            
+print(f"Odd numbers : {odd_count}")
