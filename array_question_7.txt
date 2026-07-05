@@ -1,0 +1,13 @@
+# Input an element x — check if it exists in the array.
+
+arr = []
+n = int(input("Enter the number of elements : "))
+for i in range(n):
+    arr.append (int(input("Enter the element : ")))
+    arr.sort()
+print(arr)
+x = int(input("Enter the number you want to search in arr :"))    
+if x in arr :
+    print(f"{x} is present in array")
+else :
+    print("Element not found !")    
