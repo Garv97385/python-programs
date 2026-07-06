@@ -1,0 +1,12 @@
+# Find the first occurrence of a given number.
+
+arr = [5, 8, 12, 6, 20, 9, 25]
+target = int(input("Enter the target : "))
+
+# Method 1: Loop through array
+for i in range(len(arr)):
+    if arr[i] == target:
+        print(f"First occurrence of {target} is at index {i}")
+        break
+else:
+    print(f"{target} not found in array")
