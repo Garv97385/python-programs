@@ -1,0 +1,9 @@
+# Find the last occurrence of a given number. 
+
+def find_last_occurrence(arr, num):
+    last_index = -1  # default if not found
+    for i in range(len(arr)):
+        if arr[i] == num:
+            last_index = i
+    return last_index
+
