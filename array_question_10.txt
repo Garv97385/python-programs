@@ -1,0 +1,17 @@
+# Find the sum of even elements only.
+
+n = int(input("Enter the number of elements : "))
+arr = []
+even_arr = []
+
+for i in range(n):
+    num = int(input("Enter the number : "))
+    arr.append(num)
+    if num % 2 == 0:
+        even_arr.append(num)
+
+even = sum(even_arr)
+
+print("The array is",arr)
+print("The sum of even numbers in array :",even)
+
