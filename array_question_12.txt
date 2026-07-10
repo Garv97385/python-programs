@@ -1,0 +1,16 @@
+# Count how many numbers are divisible by 3 and 5 both.
+
+n = int(input("Enter the number of elements : "))
+count = 0
+arr = []
+
+for i in range(n):
+    arr.append(int(input("Enter the number : ")))
+
+for j in arr:
+    # divisible by both 3 and 5  <=> divisible by lcm(3,5)=15
+    if j % 3 == 0 and j % 5 == 0 :
+        count += 1
+
+print(arr)
+print(count)
