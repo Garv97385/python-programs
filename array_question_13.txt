@@ -1,0 +1,14 @@
+# Create a new array containing squares of all numbers.
+
+n = int(input("Enter the number of elements : "))
+arr = []
+arr2 = []
+
+for i in range(n):
+    arr.append(int(input("Enter the number : ")))
+
+for j in arr:
+    arr2.append(j ** 2)
+
+print("Original array:", arr)
+print("Squares array:", arr2)
