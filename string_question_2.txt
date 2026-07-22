@@ -1,0 +1,4 @@
+# Print the first and last character of a string
+
+st = input("Enter the string : ")
+print(f"The first character is : {st[0]} and the last character is : {st[-1]}")
