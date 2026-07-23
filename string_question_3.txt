@@ -1,0 +1,5 @@
+# Convert all characters of a string to uppercase.
+
+st = input("Enter the string : ")
+print(st.upper())
+ 
