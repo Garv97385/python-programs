@@ -1,0 +1,4 @@
+# Convert all characters of a string to lowercase.
+
+st = input("Enter the string : ")
+print(st.lower())
