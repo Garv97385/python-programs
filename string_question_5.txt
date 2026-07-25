@@ -1,0 +1,6 @@
+# Count how many characters (excluding spaces) are in the string.
+
+st = input("Enter the string : ")
+text = st.replace(" ","")
+length = (len(text))
+print(f"The length of character is : {length}")
