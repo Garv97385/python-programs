@@ -1,0 +1,12 @@
+# Count vowels in each word of a sentence.
+
+sen = input("Enter the sentence : ")
+vow = ("a", "A", "e", "E", "i", "I", "o", "O", "u", "U")
+
+words = sen.split()
+for word in words:
+    count_vow = 0
+    for ch in word:
+        if ch in vow:
+            count_vow += 1
+    print(f"{word}: {count_vow} vowels")
