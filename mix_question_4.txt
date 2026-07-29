@@ -1,0 +1,10 @@
+# Reverse words in a string if their length is even. 
+
+def reverse_even_words(sentence):
+    return " ".join(
+        [word[::-1] if len(word) % 2 == 0 else word for word in sentence.split()]
+    )
+
+# Example usage:
+text = "Python makes coding fun and easy"
+print(reverse_even_words(text))
