@@ -1,0 +1,6 @@
+# Find the maximum and minimum element in an array.  
+
+arr = [12, 5, 7, 25, 3, 19]
+
+print("Maximum:", max(arr))
+print("Minimum:", min(arr))
