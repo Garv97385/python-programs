@@ -1,0 +1,24 @@
+# Count how many positive, negative, and zero elements are in an array.
+
+n = int(input("Enter the numbers of  elements : "))
+arr = []
+
+pos = 0
+neg = 0
+zero = 0
+
+for i in range(n):
+    num = int(input("Enter the numbers of elements : "))
+    arr.append(num)
+
+for i in arr :
+    if i > 0 :
+        pos += 1
+    elif i < 0 :
+        neg += 1
+    else :
+        zero += 1        
+
+print(f"positive numbers : {pos}")
+print(f"negative numbers : {neg}")
+print(f"zeros : {zero}")
