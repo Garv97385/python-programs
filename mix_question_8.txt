@@ -1,0 +1,10 @@
+# Print all unique elements from an array. 
+
+def print_unique_elements(arr):
+    unique = set(arr)   # convert array to set (removes duplicates)
+    for element in unique:
+        print(element)
+
+# Example usage
+arr = [1, 2, 3, 2, 4, 1, 5, 3]
+print_unique_elements(arr)
