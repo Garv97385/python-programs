@@ -1,0 +1,10 @@
+#  Given marks of students, find how many passed (>= 40). 
+
+marks = [35, 67, 89, 23, 40, 55, 39, 72]
+
+count = 0
+for m in marks:
+    if m >= 40:
+        count += 1
+
+print("Passed:", count)
