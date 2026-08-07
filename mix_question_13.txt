@@ -1,0 +1,14 @@
+# Count how many times a coin lands on heads/tails (use random).
+import random
+
+heads = 0 
+tails = 0
+n = int(input("Enter the number of times you want to flip coin : "))
+for i in range(n):
+    flip = random.choice(["tail", "head"])
+    if flip == "tail" :
+        tails += 1
+    elif flip == "head" :
+        heads += 1
+print(f"Total heads = {heads}")        
+print(f"Total tails = {tails}")
