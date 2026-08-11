@@ -1,0 +1,9 @@
+# Find the difference between the largest and smallest element.
+
+numbers = [12, 5, 23, 7, 19]
+
+largest = max(numbers)
+smallest = min(numbers)
+difference = largest - smallest
+
+print("Difference:", difference)
