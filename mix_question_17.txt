@@ -1,0 +1,8 @@
+#  Replace all vowels with ‘*’.
+
+def replace_vowels(text):
+    for vowel in "aeiouAEIOU":
+        text = text.replace(vowel, "*")
+    return text
+
+print(replace_vowels("Hello World"))  
