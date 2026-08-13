@@ -1,0 +1,4 @@
+# Replace all spaces with ‘_’. 
+
+text = input("Enter your text: ")
+print(text.replace(" ", "_"))
