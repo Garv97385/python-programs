@@ -1,0 +1,4 @@
+# Swap case: uppercase → lowercase and lowercase → uppercase. 
+
+s = input("Enter the sentence : ")
+print(s.swapcase())
