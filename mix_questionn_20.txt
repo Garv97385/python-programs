@@ -1,0 +1,5 @@
+# Capitalize the first letter of each word. 
+
+text = "hello world this is python"
+capitalized_text = text.title()
+print(capitalized_text)
