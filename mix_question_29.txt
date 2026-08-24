@@ -1,0 +1,19 @@
+# Count how many positive, negative, and zero numbers are in a list
+
+numbers = [5, -3, 0, 7, -1, 0, 4]
+
+pos = 0
+neg = 0
+zero = 0
+
+for n in numbers:
+    if n > 0:
+        pos += 1
+    elif n < 0:
+        neg += 1
+    else:
+        zero += 1
+
+print("Positive numbers:", pos)
+print("Negative numbers:", neg)
+print("Zeros:", zero)
