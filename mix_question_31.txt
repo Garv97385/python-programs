@@ -1,0 +1,20 @@
+# Find the sum of all elements except the largest and smallest. 
+
+arr = [5, 2, 8, 1, 7]
+
+largest = arr[0]
+smallest = arr[0]
+
+# Find largest and smallest
+for num in arr:
+    if num > largest:
+        largest = num
+    if num < smallest:
+        smallest = num
+
+total = 0
+for num in arr:
+    total += num
+
+result = total - largest - smallest
+print("Sum excluding largest and smallest:", result)
