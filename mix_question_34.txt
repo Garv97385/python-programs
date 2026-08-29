@@ -1,0 +1,12 @@
+# Write a program to find the common elements between two lists.
+
+list1 = [6,8,9,5,4,7]
+list2 = [ 8,6,3,5]
+
+common = []
+
+for i in list1 :
+    if i in list2 :
+        common.append(i)
+
+print(common)        
