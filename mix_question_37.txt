@@ -1,0 +1,5 @@
+# Write a Python program to repeat a tuple three times using the * operator.
+
+colours = ("Red","Green")
+repeat = colours * 3
+print(f"Colours : {repeat}")
