@@ -1,0 +1,5 @@
+# Write a Python program to reverse the order of elements in a tuple.
+
+num = (1, 2, 3, 4, 5)
+rev_num = num[::-1]
+print(rev_num)   
