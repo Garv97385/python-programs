@@ -1,0 +1,8 @@
+# Write a Python program to use the .count() method to find how many times a specific element appears in a tuple.
+
+votes = ("yes", "no", "yes", "yes", "no", "yes")
+yes_count = votes.count("yes")
+no_count = votes.count("no")
+
+print(f"yes appears {yes_count} times")
+print(f"no appears {no_count} times")
