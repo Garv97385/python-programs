@@ -1,0 +1,7 @@
+# Write a Python program to swap the values of two variables using tuple unpacking, without using a temporary third variable.
+
+a = 50
+b = 100
+
+a,b = b,a
+print(f"After swap a : {a} b : {b} ")
