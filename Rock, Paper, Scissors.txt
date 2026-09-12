@@ -1,0 +1,63 @@
+# Rock, Paper, Scissors
+
+import random
+
+user_point = 0 
+comp_point = 0
+
+print("Welcome to game computer vs player , total 10 rounds")
+print("1. rock🪨\n2. paper📄\n3. scissors✂️")
+choice = {1: "rock🪨", 2: "paper📄", 3: "scissors✂️"}
+for i in range(10):
+    user_choice = int(input("Enter your choice : "))
+    comp_choice = random.choice([1,2,3])
+    if user_choice < 1 or user_choice > 3 :
+         print("INVALID PARAMERTERS PLZZ ENTER NUMBER BTW 1 AND 3 !")
+    elif user_choice == comp_choice :
+        print("Its a tie !")
+        user_point += 1
+        comp_point += 1
+        print(f" computer choice : {comp_choice} ")
+        print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == comp_choice :
+        print("Its a tie !")
+        user_point += 1
+        comp_point += 1 
+        print(f" computer choice: {comp_choice} ")
+        print(f"user point : {user_point} \n computer point : {comp_point} ")   
+    elif user_choice == comp_choice :
+            print("Its a tie !")
+            user_point += 1
+            comp_point += 1
+            print(f" computer choice : {comp_choice} ")
+            print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == 1 and comp_choice == 2 :
+        print("You lost 😟")
+        comp_point += 1 
+        print(f" computer choice : {comp_choice} ")
+        print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == 1 and comp_choice == 3:  
+        print("You win 🤯")
+        user_point += 1
+        print(f" computer choice : {comp_choice} ")
+        print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == 2 and comp_choice == 3 :
+            print("You lost 😟")
+            comp_point += 1
+            print(f" computer choice : {comp_choice} ")
+            print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == 2 and comp_choice == 1 :
+            print("You win 🤯")
+            user_choice_point += 1 
+            print(f" computer choice : {comp_choice} ")
+            print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == 3 and comp_choice == 1:  
+            print("You lost 😟")
+            comp_point += 1
+            print(f" computer choice : {comp_choice} ")
+            print(f"user point : {user_point} \n computer point : {comp_point} ")
+    elif user_choice == 3 and comp_choice == 2:
+            print("You win 🤯")
+            user_point += 1   
+            print(f" computer choice : {comp_choice} ")
+            print(f"user point : {user_point} \n computer point : {comp_point} ")
