@@ -1,0 +1,5 @@
+# Accept an integer from the user and display its value in binary format (Base 2).
+
+n = int(input("Enter a number : "))
+binary_value = (f"{n:b}")
+print(f"The binary representation of {n} is {binary_value}")
