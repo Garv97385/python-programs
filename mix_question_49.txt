@@ -1,0 +1,8 @@
+# Write a Python program to “modify” a tuple by converting it to a list, changing a specific item, and converting it back to a tuple
+
+colours = ('red', 'green', 'blue', 'yellow')
+print("Original tuple:", colours)
+temp = list(colours)
+temp[3] = "white"
+colours = tuple(temp)
+print("Modified tuple:", colours)
