@@ -1,0 +1,93 @@
+def task():
+    task = []
+    print("-----Welcome to the Task Manager App!-----")
+    total_tasks = int(input("Enter the total number of tasks you want to add : "))
+    
+    for i in range(total_tasks):
+        task.append(input(f"Enter task {i+1} name : "))
+
+    print(f"Today's tasks are : {task}")    
+    
+    while True:
+        operations = int(input("Enter:\n1 - Add\n2 - Delete\n3 - Update\n4 - Exit\n"))
+        
+        if operations == 1:
+            new_task = input("Enter a task you want to add : ")
+            task.append(new_task)
+            print(f"Task '{new_task}' has been added successfully")
+            print("Current tasks:", task)
+        
+        elif operations == 2:
+            delete = input("Enter task you want to delete : ")
+            if delete in task: 
+                task.remove(delete) 
+                print(f"Task '{delete}' has been deleted successfully")
+            else:
+                print("Task not found")
+            print("Current tasks:", task)
+        
+        elif operations == 3:
+            update = input("Enter task you want to update : ")
+            if update in task: 
+                new_task = input("Enter your new task : ")
+                index = task.index(update)
+                task[index] = new_task
+                print(f"Task '{update}' has been updated to '{new_task}' successfully")
+            else:
+                print("Task not found")
+            print("Current tasks:", task)
+        
+        elif operations == 4:
+            print("Exiting the Task Manager App......\nGoodbye!")
+            break
+        
+        else:   
+            print("Invalid input, please try again")
+
+task()def task():
+    task = []
+    print("-----Welcome to the Task Manager App!-----")
+    total_tasks = int(input("Enter the total number of tasks you want to add : "))
+    
+    for i in range(total_tasks):
+        task.append(input(f"Enter task {i+1} name : "))
+
+    print(f"Today's tasks are : {task}")    
+    
+    while True:
+        operations = int(input("Enter:\n1 - Add\n2 - Delete\n3 - Update\n4 - Exit\n"))
+        
+        if operations == 1:
+            new_task = input("Enter a task you want to add : ")
+            task.append(new_task)
+            print(f"Task '{new_task}' has been added successfully")
+            print("Current tasks:", task)
+        
+        elif operations == 2:
+            delete = input("Enter task you want to delete : ")
+            if delete in task: 
+                task.remove(delete) 
+                print(f"Task '{delete}' has been deleted successfully")
+            else:
+                print("Task not found")
+            print("Current tasks:", task)
+        
+        elif operations == 3:
+            update = input("Enter task you want to update : ")
+            if update in task: 
+                new_task = input("Enter your new task : ")
+                index = task.index(update)
+                task[index] = new_task
+                print(f"Task '{update}' has been updated to '{new_task}' successfully")
+            else:
+                print("Task not found")
+            print("Current tasks:", task)
+        
+        elif operations == 4:
+            print("Exiting the Task Manager App......\nGoodbye!")
+            break
+        
+        else:   
+            print("Invalid input, please try again")
+
+task()
