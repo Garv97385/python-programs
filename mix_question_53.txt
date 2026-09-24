@@ -1,0 +1,8 @@
+#Write a Python program to verify whether a specific value is present anywhere in a dictionary.
+
+roles = {"alice": "admin", "bob": "editor", "carol": "viewer"}
+n = input("Enter the value you want to find in roles : ")
+if n in roles.values():
+    print(f"'{n}' exist as a value in roles")
+else:
+    print(f"'{n}' doesn't exist as a value in roles")
