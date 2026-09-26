@@ -1,0 +1,7 @@
+# Write a Python program to create a set, add a new element to it, remove an element using remove().
+
+fruits = {"apple", "banana", "cherry"}
+fruits.add("mango")
+print(f"After add : {fruits} \n")
+fruits.remove("cherry")
+print(f"After remove : {fruits}\n")
