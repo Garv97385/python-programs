@@ -1,0 +1,7 @@
+#  Write a Python program to check whether one set is a proper subset and another is a proper superset.
+
+a = {1, 2, 3}
+b = {1, 2, 3, 4, 5}
+print("a is a proper subset of b:", a < b)
+print("b is a proper superset of a:", b > a)
+print("a is a proper subset of a:", a < a)
