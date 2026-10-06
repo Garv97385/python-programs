@@ -1,0 +1,7 @@
+# Given a list of integers, use a list comprehension with a conditional clause to extract only the even numbers and collect them into a new list.
+
+numbers = [3, 7, 2, 14, 9, 8, 11, 6, 5, 10]
+
+evens = [n for n in numbers if n % 2 == 0]
+
+print(evens)
