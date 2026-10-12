@@ -1,6 +1,6 @@
-# Write a code to generate 3 random integers between 100 and 999 which is divisible by 5
+# Write a code to generate 5 random integers between 100 and 999 which is divisible by 5
 import random
 
 print("3 random integers between 100 and 999 which is divisible by 5:")
-for i in range(3):
+for i in range(5):
     print(random.randrange(100, 1000, 5))
