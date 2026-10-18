@@ -1,0 +1,11 @@
+
+# TEXT TO AUDIO.
+
+from gtts import gTTS
+text = " Heloo everyone , welcome to pythono coding."
+
+tts = gTTS(text=text , lang="en")
+
+tts.save("voice.mp3")
+
+print("audio saved successfully !")
