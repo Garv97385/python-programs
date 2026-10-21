@@ -1,0 +1,9 @@
+import math 
+
+num = 144
+base , exponent = 2,10
+root = math.sqrt(num)
+pow_result = math.pow(base , exponent)
+
+print(f"Square root of {num} : {root}")
+print(f"{base} ^ {exponent} : {pow_result}")
