@@ -1,0 +1,13 @@
+#  Write a Python program that calculates the area of a circle with radius 7 using math.pi, and also computes the circumference, printing both results rounded to two decimal places.
+
+import math
+
+radius = 7
+
+area = math.pi * radius ** 2
+circumference = 2 * math.pi * radius
+
+print(f"math.pi value  : {math.pi}")
+print(f"Radius         : {radius}")
+print(f"Area           : {area:.2f}")
+print(f"Circumference  : {circumference:.2f}")
