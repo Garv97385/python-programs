@@ -1,0 +1,11 @@
+#  Write a Python program that uses math.factorial() to compute 10! and verifies that the result equals 3628800.
+
+import math
+
+n = 10
+expected = 3628800
+
+result = math.factorial(n)
+
+print(f"{n}! = {result}")
+print(f"Verification passed: {result == expected}")
