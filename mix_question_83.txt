@@ -1,10 +1,12 @@
-#  Write a Python program to create a Vehicle class with two instance attributes: max_speed and mileage. Create an object of the class and print both attributes.
+# Write a Python program that uses Counter to count the frequency of every character in a given string, then prints only the alphabetic characters sorted from most to least frequent.
 
-class Vehicle:
-    def __init__(self, name, max_speed, mileage):
-        self.name = name
-        self.max_speed = max_speed
-        self.mileage = mileage
+from collections import Counter
 
-vehicle1 = Vehicle("Tesla Model S", 250, 18)
-print(f"Vehicle Name: {vehicle1.name}, Speed: {vehicle1.max_speed}, Mileage: {vehicle1.mileage}")
+text = "hello world"
+
+char_count = Counter(text)
+
+print("Alphabetic character frequencies (most to least):")
+for char, count in char_count.most_common():
+    if char.isalpha():
+        print(f"  '{char}': {count}")
