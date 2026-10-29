@@ -1,0 +1,18 @@
+# Write a Python program to create a Rectangle class with length and width as instance attributes, and two methods: area() that returns the area and perimeter() that returns the perimeter.
+
+L = int(input("Enter the lenth of rectengle : "))
+W = int(input("Enter the width of rectengle : "))
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+rect = Rectangle(L, W)
+print("Area =", rect.area())
+print("Perimeter =", rect.perimeter())
