@@ -1,0 +1,10 @@
+# Program to censored word.
+
+words = ["Donkey","Pagal"]
+
+with open("89.txt","r") as f :
+    content = f.read()
+for word in words:
+    content = content.replace(word,"#" * len(word))
+with open("89.txt","w") as f :
+    f.write(content)
