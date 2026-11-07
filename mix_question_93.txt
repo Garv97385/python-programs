@@ -1,0 +1,5 @@
+# Write a lambda function that takes a single number and returns its square. Assign the lambda to a variable named square and call it with a few different values to verify it works.
+
+i = int(input("Enter a number to square: "))
+square = lambda x : x**2 
+print(f"The square of given number {i} is {square(i)}")  
