@@ -1,13 +1,15 @@
-# Store four lambda functions in a dictionary under the keys "add", "sub", "mul", and "div". Each lambda should take two numbers and perform the corresponding arithmetic operation. Use the dictionary to build a simple calculator that looks up the operation by key and applies it to two operands.
+# Given a list of employee dictionaries, each with a "name" and a "salary" key, sort the list by salary in descending order. Where two employees share the same salary, sort those entries by name in ascending alphabetical order. Use a single lambda as the key argument.
 
-ops = {
-    "add": lambda a, b: a + b,
-    "sub": lambda a, b: a - b,
-    "mul": lambda a, b: a * b,
-    "div": lambda a, b: a / b,
-}
 
-a, b = 10, 3
-
-for name, func in ops.items():
-    print(f"{name}: {func(a, b)}")
+employees = [
+    {"name": "Alice",   "salary": 70000},
+    {"name": "Bob",     "salary": 90000},
+    {"name": "Charlie", "salary": 70000},
+    {"name": "Diana",   "salary": 90000},
+]
+sorted_employees = sorted(
+    employees,
+    key=lambda e: (-e["salary"], e["name"])
+)
+for emp in sorted_employees:
+    print(f"{emp['name']:<10} ${emp['salary']}")
