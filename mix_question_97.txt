@@ -1,10 +1,8 @@
-#  Given a list of integers that includes negative numbers, use filter() to remove all negatives, then use map() to square the remaining values. Chain the two operations so no intermediate named variable is required.
+# Write a Python program that accepts a user’s name as input and writes it to a file called user.txt.
 
-numbers = [-3, -1, 0, 2, 4, -2, 5, 7]
+name = input("Enter your name: ")
 
-result = list(
-    map(lambda n: n ** 2,
-        filter(lambda n: n >= 0, numbers))
-)
+with open("user.txt", "w") as f:
+    f.write(name)
 
-print(result)  
+print("Name written to user.txt")
