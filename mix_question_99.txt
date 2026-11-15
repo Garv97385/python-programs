@@ -1,0 +1,5 @@
+# Write a Python program that reads a file called lines.txt and prints each line one at a time using a loop.
+
+with open("lines.txt", "r") as f:
+    for line in f:
+        print(line, end="")
