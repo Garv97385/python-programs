@@ -1,0 +1,6 @@
+# Write a Python program that appends the sentence This is a new line. to an existing file called notes.txt without overwriting its current content.
+
+with open("notes.txt", "a") as f:
+    f.write("\nThis is a new line.")
+
+print("Sentence appended successfully.")
