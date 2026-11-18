@@ -1,0 +1,8 @@
+# Write a Python program that creates a new file called output.txt and writes three lines of text to it.
+
+lines = ["First line\n", "Second line\n", "Third line\n"]
+
+with open("output.txt", "w") as f:
+    f.writelines(lines)
+
+print("Text written to output.txt")
