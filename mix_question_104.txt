@@ -1,0 +1,7 @@
+#  Write a Python program that reads a file called data.txt and counts the total number of words across all its lines.
+
+with open("data.txt", "r") as f:
+    content = f.read()
+
+words = content.split()
+print("Total words:", len(words))
